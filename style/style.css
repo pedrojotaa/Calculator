@@ -1,0 +1,16 @@
+.calculadora{
+    background-color: aqua;
+    width: 300px;
+    margin: 200px auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+}
