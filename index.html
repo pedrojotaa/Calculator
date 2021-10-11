@@ -7,34 +7,38 @@
 </head>
 <body>
     <div class="container">
-        <input id="resultado" type="text">
+        <div id="telaResultado">
+
+        </div>
         <div class="linha">
-            <button id="7">7</button>
-            <button id="8">8</button>
-            <button id="9">9</button>
-            <button>/</button>
+            <button id="sete">7</button>
+            <button id="oito">8</button>
+            <button id="nove">9</button>
+            <button id="divide">/</button>
+        </div>
+
+        <div class="linha">
+            <button id="quatro">4</button>
+            <button id="cinco">5</button>
+            <button id="seis">6</button>
+            <button id="multiplica">x</button>
         </div>
     
         <div class="linha">
-            <button id="4">4</button>
-            <button id="5">5</button>
-            <button id="6">6</button>
-            <button>x</button>
-        </div>
-    
-        <div class="linha">
-            <button id="1">1</button>
-            <button id="2">2</button>
-            <button id="3">3</button>
-            <button>-</button>
+            <input onclick="umClick()" id="um" type="submit" value="1">
+            <button id="dois">2</button>
+            <button id="tres">3</button>
+            <button id="subtrai">-</button>
         </div>
         
         <div class="linha">
-            <button id="0">0</button>
-            <button>.</button>
-            <button>+</button>
-            <button>=</button>
+            <button id="zero">0</button>
+            <button id="ponto">.</button>
+            <input id="soma" type="submit" value="+">
+            <button id="resultado">=</button>
         </div>
     </div>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
