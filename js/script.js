@@ -1,10 +1,16 @@
-let buts = document.querySelectorAll('.but')
 let telaResultado = document.querySelector('#telaResultado')
+let buts = document.querySelectorAll('.but')
+let resultado = document.querySelector('#resultado')
 
 buts.forEach((but) => {
     but.addEventListener('click', (event) => {
         let click = event.target
-        let position = click.id
-        console.log(position)
+        let valor = click.id
+
+        telaResultado.innerHTML += `<span>${valor}</span>`
+
+        //resultado()
     })
 })
+
+//function res(){}

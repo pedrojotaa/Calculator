@@ -24,6 +24,11 @@
     margin-bottom: 20px;
 }
 
+p{
+    color: black;
+    font-size: 15px;
+}
+
 .linha{
     display: flex;
     justify-content: space-between;
